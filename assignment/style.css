@@ -1,0 +1,129 @@
+
+.nav-container{
+    display: flex;
+    background-color: aquamarine;
+    justify-content: space-between;
+}
+.img-logo{
+    width: 100px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.item-container{
+              display: flex;
+              justify-content: space-around;
+              align-items: center;
+              margin-right: 50px;
+}
+.item-list{
+   list-style: none;
+   display: flex;
+   align-items: center;
+   gap:20px;
+   font-size: 20px;
+   font-weight: 500;
+}
+.item:hover{
+       color: blue;
+}
+.search-box{
+        
+    margin: auto;
+   
+    display: flex;
+    padding: 5px;
+    margin-top: 10px;
+   
+}
+.search-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap:10px;
+    
+}
+.search-bar{
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 6px gray;
+    border-style: none;
+}
+.search-btn{
+   width: 50px;
+   height:50px ;
+   border-radius: 5px;
+   background-color: rgb(50, 177, 58);
+   border-style: none;
+}
+.search-icon{
+    color:white
+}
+.player-container{
+     display: flex;
+     margin: auto;
+}
+.all-player{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:5px;
+    margin-top: 5px;
+}
+
+.single-player{
+    width: 250px;
+    height: 320px;
+    box-shadow: 4px 4px 8px gray;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin: auto;
+}
+.player-image{
+    width: 150px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+   
+}
+.details-btn{
+         background-color: blueviolet;
+         border-radius: 10px;
+         text-align: center;    
+}
+.add-team-btn{
+    background-color: rgb(7, 164, 13);
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+    height: 37px;
+}
+.player-cart{
+   margin-top: 0px;
+   padding-top: 0px;
+}
+.cart_player{
+    display: flex;
+    margin: 5px;
+    box-shadow: 4px 4px 8px rgb(154, 96, 96);
+    border-radius: 6px;
+    gap: 20px;
+   
+}
+.cart-player-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+.icon{
+    background-color: aqua;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
